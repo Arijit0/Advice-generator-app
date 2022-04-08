@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+
+--LightCyan__primary: hsl(193, 38%, 86%);
+--NeonGreen__primary: hsl(150, 100%, 66%);
+
+--GrayishBlue__Neutral: hsl(217, 19%, 38%);
+--DarkGrayishBlue__Neutral: hsl(217, 19%, 24%);
+--DarkBlue__Neutral: hsl(218, 23%, 16%);
+
+}
+
+/* Css reset  code */
+
+html {
+    box-sizing: border-box;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-rendering: optimizeLegibility;
+    /* optimizeLegibility
+    The browser emphasizes legibility over rendering speed and geometric precision. 
+    This enables kerning and optional ligatures. */
+}
+html, body { 
+    height: 100%;
+    font-size: 14px;
+}
+body {
+    color: var(--black);
+    margin: 0 auto;
+    font-weight: 400;
+    width: 100%;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Css reset  code End */
